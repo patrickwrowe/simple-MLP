@@ -39,15 +39,9 @@ To use the provided potentials in CP2K:
 
 2. **Prepare the Input File**:  
    Include the model parameters in your CP2K input file. Documentation for this can be found at https://manual.cp2k.org/trunk/CP2K_INPUT/FORCE_EVAL/NNP.html
-
-Validation:
-Before running large-scale simulations, validate the potential by comparing its predictions (e.g., energies, forces, and structural properties) against experimental or ab initio reference data.
-
-Fine-Tuning (Optional):
-If needed, use the training sets in training-sets to retrain or fine-tune the models for specific applications. This requires a compatible machine learning framework.
-
-References
+   
+## References
 For further details on the methodology, training process, and validation of these potentials, please refer to the original paper:
 
-"Machine Learning Potentials for Complex Aqueous Systems Made Simple"
+"[Machine Learning Potentials for Complex Aqueous Systems Made Simple](https://www.pnas.org/doi/10.1073/pnas.2110077118)"
 Christoph Schran, Fabian L. Thiemann, Patrick Rowe, Erich A. Müller, Ondrej Marsalek, and Angelos Michaelides
